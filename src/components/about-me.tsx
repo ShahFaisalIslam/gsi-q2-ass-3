@@ -21,13 +21,13 @@ const IntroductionImage = () => {
 // export { IntroductionText, IntroductionImage, Introduction };
 export default function Introduction () {
     return (
-        <>
-            <div className="text-white text-6xl text-center">About me</div>
+        <div className="flex flex-col justify-center bg-gray-900 my-auto">
+            <div className="text-white text-3xl text-center">About me</div>
             <div className="flex items-center justify-between m-6">
                 <IntroductionText />
                 <IntroductionImage />
             </div>
-        </>
+        </div>
 
     );
 }
